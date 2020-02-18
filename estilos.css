@@ -1,0 +1,100 @@
+
+@media (orientation: portrait) {
+    html {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    html {
+      background-color: yellow;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    html {
+      background-color: lightcoral;
+    }
+  }
+#titulo{
+    background-color: lightblue;
+    color: red;
+    font-family: 'Zhi Mang Xing', cursive;
+    text-align: center;
+    height: 100px;
+}
+#colores{
+    background-color: lightyellow;
+}
+ul#color1 {
+    list-style-type: none;
+  }
+  
+  li#color1 {
+    background-color: lightblue;
+    border: #D7C8B6 2px solid;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+    border: 3px red;
+  }
+  #know_all{
+    list-style-type: decimal;
+  }
+  #test{
+      background-color: lightsteelblue;
+  }
+  #choco{
+      background-color: chocolate;
+      height: 100px;;
+  }
+  td{
+      text-align: center;
+  }
+  #texto_1{
+      padding: 20px;
+  }
+  #texto_1:hover{
+      background-color: red;
+      color: red;
+  }
+  #texto_2{
+    padding: 20px;
+}
+#texto_2:hover{
+    background-color: yellow;
+    color: yellow;
+}
+.texto{
+      padding: 20px;
+      width: 325px;
+}
+input:focus{
+    background-color: yellow;
+}
+#separacion{
+    height: 15px;
+  background-color: blue;
+  margin-left: 7%;
+  margin-right: 40%;
+}
+#bordes{
+    text-align: center;
+    background-color: chocolate;
+    color: yellow;
+    border-top: orange 10px dotted;
+    border-left: red 30px solid;
+    border-right: red 30px solid;
+    border-bottom: yellow 15px dashed;
+}
+footer{
+    background-color: lightslategrey;
+
+}
+#final{
+    list-style-type: none;
+}
+.foot{
+    margin-right: 10px;
+    padding: 0 4px;
+    text-align: center;
+}
